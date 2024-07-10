@@ -20,7 +20,7 @@ Import the blood_bank.sql file located in the database directory of the cloned r
 5. Configure Database Connection:
 Open the project directory and locate the config.php file.
 6. Update the database connection settings with your MySQL credentials:
-
+```
 <?php
 $host = 'localhost';
 $user = 'root';
@@ -31,12 +31,12 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 ?>
-
+```
 7. Run the Application:
 Place the project directory in the htdocs folder of your XAMPP installation.
 Open your web browser and navigate to http://localhost/blood-bank-management-system.
 
-##Usage
+## Usage
 1. Admin Login:
 - Navigate to the admin login page.
 - Use the following credentials to log in as an admin:
